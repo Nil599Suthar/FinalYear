@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.sutharnil.buggy">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <meta-data
+                android:name="com.google.android.geo.API_KEY"
+                android:value="AIzaSyDaJFm4twytf80mWoCIWYGJiOjZZ_hosWQ"/>
+
+        <meta-data
+                android:name="com.google.android.gms.version"
+                android:value="@integer/google_play_services_version" />
+
+        <activity
+                android:name=".splashActivity"
+                android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".loginActivity">
+        </activity>
+        <activity
+                android:name=".RequestBuggy"
+                android:label="@string/app_name3">
+        </activity>
+        <activity
+                android:name=".BuggiesOnMap"
+                android:label="Buggy On Map">
+        </activity>
+        <activity
+                android:name=".DriverScreen"
+                android:label="@string/title_activity_driver_screen">
+        </activity>
+
+        <service
+                android:name=".MyService"
+                android:exported="false"/>
+
+        <activity android:name=".Account_user"
+        android:label="Account"
+        android:parentActivityName=".RequestBuggy">
+        </activity>
+    </application>
+
+</manifest>

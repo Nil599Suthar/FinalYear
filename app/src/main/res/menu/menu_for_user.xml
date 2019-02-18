@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      app:popupTheme="@style/Base.ThemeOverlay.AppCompat.Dark"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Account"
+          android:icon="@drawable/ic_person_black_2"
+          app:showAsAction="always"
+          android:id="@+id/account"/>
+    <item android:title="Log out"
+          android:icon="@drawable/ic_reply_all_black_24dp"
+          android:id="@+id/logout"/>
+</menu>

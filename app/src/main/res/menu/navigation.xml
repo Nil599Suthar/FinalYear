@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:id="@+id/nav_profile"
+            android:title="Profile"
+            android:icon="@drawable/ic_person_black_24dp"/>
+
+    <item
+            android:id="@+id/nav_buggy"
+            android:title="Buggy Service"
+            android:icon="@drawable/ic_logopit_1534081965403"/>
+
+    <item
+            android:id="@+id/nav_alert"
+            android:title="Alerts"
+            android:icon="@drawable/ic_notifications_black_24dp"/>
+
+</menu>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center_horizontal">
+    <EditText
+            android:layout_width="309dp"
+            android:id="@+id/mobileno"
+            android:textSize="18sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="normal"
+            android:hint="Mobile Number"
+            android:maxLength="10"
+            android:layout_marginTop="6dp"
+            android:inputType="numberDecimal"
+            android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginRight="5dp"/>
+
+    <EditText
+            android:layout_width="309dp"
+            android:id="@+id/address"
+            android:textSize="18sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="normal"
+            android:hint="Address"
+            android:layout_marginTop="6dp"
+            android:layout_height="wrap_content" android:layout_marginRight="5dp" android:layout_marginLeft="5dp"
+            android:maxLines="4"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="myswitch" parent="Widget.AppCompat.CompoundButton.Switch">
+
+        <item name="android:colorControlActivated">#10af15</item>
+        <item name="track">@color/colorAccent</item>
+    </style>
+
+
+
+</resources>

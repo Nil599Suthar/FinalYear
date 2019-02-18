@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Pick_up_ponit">
+
+        <item>A1 Building </item>
+        <item>A2 Building </item>
+        <item>A3 Building </item>
+        <item>B1 Building </item>
+        <item>B2 Building </item>
+        <item>B3 Building </item>
+        <item>C1 Building </item>
+        <item>C2 Building </item>
+        <item>C3 Building </item>
+
+    </string-array>
+
+    <string-array name="Drop_ponit">
+
+        <item>A1 Building  </item>
+        <item>A2 Management Office</item>
+        <item>A3 Building </item>
+        <item>B1 Building </item>
+        <item>B2 Management Office</item>
+        <item>B3 Building </item>
+        <item>C1 Building </item>
+        <item>C2 Management Office</item>
+        <item>C3 Building </item>
+
+    </string-array>
+</resources>

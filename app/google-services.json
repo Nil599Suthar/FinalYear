@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "246972217541",
+    "firebase_url": "https://buggy-16135.firebaseio.com",
+    "project_id": "buggy-16135",
+    "storage_bucket": "buggy-16135.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:246972217541:android:1020ad7923167588",
+        "android_client_info": {
+          "package_name": "com.example.sutharnil.buggy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "246972217541-o58nvdv70rln7f0er3etvq4qa18fd55m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEs-7d1yiXxKhpWozIdh5yrfC6oAWfdqA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

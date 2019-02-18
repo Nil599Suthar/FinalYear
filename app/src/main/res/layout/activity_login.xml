@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".loginActivity"
+        >
+
+        <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/img2"
+                app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+                app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp" android:id="@+id/imageView"
+                app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="40dp"/>
+        <CheckBox
+                android:text="I Am Driver.."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/checkBox"
+                android:textColor="#f11079"
+                app:layout_constraintTop_toBottomOf="@+id/upass" app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp" app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp" android:layout_marginTop="20dp" android:textSize="18sp"
+                android:textStyle="bold"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="USER/Driver ID"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:drawablePadding="5dp"
+                android:drawableRight="@drawable/ic_person_black_24dp"
+                app:layout_constraintTop_toBottomOf="@+id/imageView" app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp" app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="10dp" android:id="@+id/textView8" android:layout_marginTop="10dp"
+                app:layout_constraintHorizontal_bias="0.085"/>
+        <EditText
+                android:layout_width="321dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/did"
+                app:layout_constraintTop_toBottomOf="@+id/textView8" app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp"
+                android:maxLines="1" android:textSize="18sp" android:hint="User/Driver ID"
+                app:layout_constraintHorizontal_bias="1.0" android:layout_marginTop="8dp"
+                android:inputType="textEmailAddress"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PASSWORD"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:drawableRight="@drawable/ic_vpn_key_black_24dp"
+                android:drawablePadding="5dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="20dp"
+                android:id="@+id/textView9" app:layout_constraintHorizontal_bias="0.044"
+                app:layout_constraintTop_toBottomOf="@+id/did" android:layout_marginTop="8dp"/>
+
+        <EditText
+                android:layout_width="321dp"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:id="@+id/upass" android:hint="Password" android:textSize="18sp"
+                app:layout_constraintTop_toBottomOf="@+id/textView9" app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp" app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp" app:layout_constraintHorizontal_bias="1.0" android:layout_marginTop="8dp"/>
+        <Button
+                android:text="Login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/userlogin"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:background="@color/colorPrimary"
+                app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="10dp"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp" android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/checkBox" app:layout_constraintVertical_bias="0.418"/>
+
+
+</android.support.constraint.ConstraintLayout>
